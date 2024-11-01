@@ -7,11 +7,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.MyFirebaseProject"
+    namespace = "com.example.WellnessApp"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.MyFirebaseProject"
+        applicationId = "com.example.WellnessApp"
         minSdk = 29
         targetSdk = 34
         versionCode = 1

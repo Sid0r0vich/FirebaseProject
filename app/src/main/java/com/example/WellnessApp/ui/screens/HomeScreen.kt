@@ -1,4 +1,4 @@
-package com.example.MyFirebaseProject.ui.screens
+package com.example.WellnessApp.ui.screens
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Column
@@ -30,14 +30,14 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import com.example.MyFirebaseProject.R
-import com.example.MyFirebaseProject.ui.theme.MyFirebaseProjectTheme
+import com.example.WellnessApp.R
+import com.example.WellnessApp.ui.theme.WellnessAppTheme
 
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun MyApp() {
-    MyFirebaseProjectTheme {
+    WellnessAppTheme {
         Scaffold(
             topBar = { TopAppBar(scrollBehavior = TopAppBarDefaults.enterAlwaysScrollBehavior()) },
             bottomBar = { BottomNavigation() },

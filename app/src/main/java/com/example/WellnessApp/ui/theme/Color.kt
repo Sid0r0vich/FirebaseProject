@@ -1,4 +1,4 @@
-package com.example.MyFirebaseProject.ui.theme
+package com.example.WellnessApp.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
